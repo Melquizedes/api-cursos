@@ -1,0 +1,10 @@
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\bin\Debug\netcoreapp3.1\API.Cast.Cursos.exe
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.1\API.Cast.Cursos.csprojAssemblyReference.cache
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.1\API.Cast.Cursos.AssemblyInfoInputs.cache
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.1\API.Cast.Cursos.AssemblyInfo.cs
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.1\API.Cast.Cursos.RazorTargetAssemblyInfo.cache
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.1\staticwebassets\API.Cast.Cursos.StaticWebAssets.Manifest.cache
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.1\staticwebassets\API.Cast.Cursos.StaticWebAssets.xml
