@@ -23,6 +23,7 @@ namespace API.Cast.Cursos.Controllers
             _repository = repository;
         }
 
+
         /// <summary>
         /// Retorna a lista com todos os cursos.
         /// </summary>
@@ -54,6 +55,24 @@ namespace API.Cast.Cursos.Controllers
             IEnumerable<Curso> cursos = await _repository.ListarCursosDesc(desc);
             if (cursos.Count() == 0)
                 return NoContent();
+
+            return Ok(cursos);
+        }
+
+        /// <summary>
+        /// Busca cursos com base na categoria que ele pertence.
+        /// </summary>
+        /// <param name="idCategoria">Id da categoria</param>
+        /// <returns></returns>
+        [HttpGet("categoria")]
+        [Produces(MediaTypeNames.Application.Json)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        public async Task<ActionResult<Curso>> ObterPorCategoria([FromQuery] int idCategoria)
+        {
+            IEnumerable<Curso> cursos = await _repository.ListarCursosPorCateg(idCategoria);
+            if (cursos.Count() == 0)
+                return NotFound("Não existem cursos cadastrados na categoria selecionada.");
 
             return Ok(cursos);
         }
@@ -164,6 +183,7 @@ namespace API.Cast.Cursos.Controllers
             return Ok("Curso Removido Com Sucesso!");     
         }
 
+        [ApiExplorerSettings(IgnoreApi = true)]
         public bool ExisteCurso(Curso curso)
         {
             if (curso == null)

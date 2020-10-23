@@ -66,3 +66,4 @@ C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netc
 C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.0\API.Cast.Cursos.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.0\API.Cast.Cursos.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.0\API.Cast.Cursos.xml
+C:\Users\Melqz\Documents\Projetos\API.Cast.Cursos\API.Cast.Cursos\obj\Debug\netcoreapp3.0\API.Cast.Cursos.csprojAssemblyReference.cache
