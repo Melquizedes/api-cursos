@@ -17,6 +17,13 @@
             <param name="desc">Descricao do curso</param>
             <returns></returns>
         </member>
+        <member name="M:API.Cast.Cursos.Controllers.CursoController.ObterPorCategoria(System.Int32)">
+            <summary>
+            Busca cursos com base na categoria que ele pertence.
+            </summary>
+            <param name="idCategoria">Id da categoria</param>
+            <returns></returns>
+        </member>
         <member name="M:API.Cast.Cursos.Controllers.CursoController.ObterPorId(System.Int32)">
             <summary>
             Retorna um curso com base no id do curso.

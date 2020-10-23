@@ -24,6 +24,10 @@ namespace API.Cast.Cursos.Repositories
 
         void Update(Curso curso);
 
+        public bool ValidarCurso(Curso curso);
 
+        public Curso PreencherCurso(Curso cursoAlt, Curso novoCurso);
+
+        Task<IEnumerable<Curso>> ListarCursosPorCateg(int id);
     }
 }
