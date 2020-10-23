@@ -1,0 +1,25 @@
+name: .NET Core Build API Cursos
+
+on:
+  push:
+    branches: [ final ]
+  pull_request:
+    branches: [ final ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: dotnet restore
+      working-directory: ./API.Cast.Cursos  
+    - name: Build with dotnet
+      run: dotnet build --configuration Release --no-restore
+      working-directory: ./API.Cast.Cursos
