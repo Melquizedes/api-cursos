@@ -1,4 +1,4 @@
-## API Utilizando .Net C# com EF | Coding Live #003
+## API Utilizando .Net C# com EF 
 
 ## Documentação criada com Swagger.
 
